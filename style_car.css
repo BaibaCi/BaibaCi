@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 100px;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+
+.carbody{
+    width: 450px;
+    height: 200px;
+    border-radius: 120px;
+    background-color: aquamarine;
+    margin-top: 250px;
+    margin-left: 40px;
+}
+
+.wheels {
+    width:450px;
+    height:200px;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+.wheelone {
+    position:absolute;
+    background-color: gray;
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    margin-left: 100px;
+    margin-top: 290px;
+}
+
+.wheeltwo {
+    position:absolute;
+    background-color: gray;
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    margin-left: 300px;
+    margin-top: 290px;
+}
+
+.windows {
+    width:300px;
+    height:150px;
+    border-radius: 100px;
+    background-color: lightskyblue;
+    margin-top:-320px;
+    margin-left:120px;
+    
+}
+
+.windowone {
+    width: 165px;
+    height: 95px;
+    border-radius:20px;
+    background-color: lightblue;
+    margin-top:-300px;
+    margin-left:75px;
+    
+}
+
+
+.light {
+    position:fixed;
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 290px;
+    margin-top: 120px;  
+}
